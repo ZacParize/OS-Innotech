@@ -1,0 +1,31 @@
+Блоки около 30 ~ 40 мин
+
+Лекция 3. Дизайн потокобезопасных классов
+
+1. Основные требования к потокобезопасным классам.
+2. Потокобезопасные классы из коробки - Java Core Immutable классы
+3. Краткий обзор пакета Concurrent
+4. Executors
+5. Решение проблем с многопоточностью с помощью java.util.concurrent.*
+ 5.1 Java Monitor Pattern (коротко)
+ 5.2 Mutex, Semaphore, CycleBarrier, CountDownLatch (коротко)
+ 5.3 Locks (Reentrant, Read/ Write коротко)
+ 5.4 Пример программ
+6. Делегирование потокобезопасности из коробки
+ 6.1 Atomics 
+ 6.2 CAS и Adder mechanisms
+ 6.3 Synchronized Collections vs. Concurrent Collections
+ 6.4 Пример программ
+7. Конкретные concurrent (пробежаться по основным)
+  7.1 ConcurrentHashMap
+  7.2 CopyOnWriteArrayList
+  7.3 CopyOnWriteArraySet
+  7.4 ConcurrentNavigableMap
+  7.5 ConcurrentSkipListMap
+  7.6 ConcurrentSkipListSet
+  7.7 BlockingQueue
+  7.8 PriorityBlockingQueue
+  7.9 BlockingDeque
+  7.10 TransferQueue и др.
+  7.11 Пример программ
+8. Заключение (плавный переход к Future)
